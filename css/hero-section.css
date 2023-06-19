@@ -1,0 +1,35 @@
+section.wallpaper {
+    width: 100%;
+    min-height: 530px
+    
+    /* display: none; */
+    }
+    
+    /* section.wallpaper > div.add-promo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: var(--padding-1);
+        background-color: var(--color-info);
+        height: 60vh;
+    } */
+    
+    section.wallpaper > div.hero {
+        background-image: url('../assets/car-wallpaper.jpg');
+      background-size: cover; /* Adjust the image sizing */
+      background-position: center; /* Adjust the image position */
+      background-repeat: no-repeat;
+        height: 60vh;
+    }
+    
+    
+    @media screen and  (max-width: 756px) {
+    
+        section.wallpaper{
+            grid-template-columns: 1fr;
+            width: 100%;
+        }
+        
+    }
+    
+    

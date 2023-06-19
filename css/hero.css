@@ -1,0 +1,63 @@
+section.wallpaper {
+width: 100%;
+min-height: 530px
+
+/* display: none; */
+}
+
+/* section.wallpaper > div.add-promo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: var(--padding-1);
+    background-color: var(--color-info);
+    height: 60vh;
+} */
+
+section.wallpaper > div.hero {
+    background-image: url('../assets/adisinlee.jpg');
+  background-size: cover; /* Adjust the image sizing */
+  background-position: center; /* Adjust the image position */
+  background-repeat: no-repeat;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+
+section .quote{
+    width: 310px;
+    padding: var(--padding-1);
+    box-shadow: var(--box-shadow-1);
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    color: var(--primary-color);
+    background-color: var(--color-white);
+    border-radius: var(--border-radius-2);
+    
+
+}
+
+section .quote button {
+    background-color: var(--primary-color);
+    border: none;
+    cursor: pointer;
+    outline: none;
+    /* margin:auto;  */
+    padding: var(--padding-2);
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+    border-radius: var(--border-radius-3);
+    font-size: 0.8rem;
+}
+
+
+@media screen and  (max-width: 756px) {
+
+    section.wallpaper{
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    
+}
+

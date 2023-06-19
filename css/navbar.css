@@ -1,0 +1,235 @@
+header{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    transition: all 0.3s ease-in-out;
+    background-color: var(--color-white);
+    box-shadow: var(--box-shadow);
+
+}
+
+header .Navbar {
+    display: grid;
+    grid-template-columns: 32rem auto 22rem;
+    gap: 3rem;
+    width: 96%;
+    align-items: center;
+    background-color: var(--color-white);
+    position: relative;
+
+}
+
+header .Navbar nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.2rem;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    font-size: 1.2rem;
+    margin-right: auto;
+
+}
+
+ /* li .nav-link {
+    text-decoration: none;
+    list-style: none;
+    color: var(--color-dark);
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+} */
+
+header nav ul li:hover {
+    color: var(--color-primary);
+}
+
+header .Navbar .menuBtn, .closeBtn {
+    /* display: none; */
+    background-color: red;
+    padding: 30px;
+    display: none;
+    width: 70px;
+    height: 70px;
+}
+
+.scale-75 > ul > li > a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    margin: 0 auto;
+    font-size: 0.8rem;
+    transition: all 0.24s ease-in-out;
+}
+
+.scale-75 > ul > li > a:hover{
+    color: var(--primary-color);
+    font-size: 0.9rem;
+}
+
+header .Navbar .book-now {
+    background-color: var(--primary-color);
+    border: none;
+    cursor: pointer;
+    outline: none;
+    margin:auto; 
+    padding: var(--padding-2);
+    color: var(--color-white);
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+    border-radius: var(--border-radius-3);
+    font-size: 0.8rem;
+    
+}
+
+header .Navbar .book-now:hover {
+    background-color: var(--color-primary-variant);
+    font-size: scale(1.1);
+}
+
+.container{
+         
+    background-color: var(--color-warning-dark);
+} 
+
+
+
+/* ================== media queries ==================== */
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+
+    header .Navbar {
+
+        grid-template-columns: 28rem auto 17rem;
+
+    }
+
+    .container{
+         
+        background-color: var(--color-light);
+    } 
+ 
+
+ 
+
+}
+
+
+@media screen and (max-width: 1200px) {
+
+    header .Navbar {
+
+        grid-template-columns: 15rem auto 16rem;
+
+    }
+    header nav ul {
+        transform: scale(1);
+        gap: 1rem;
+    }
+
+    .container{
+         
+        background-color: var(--color-dark);
+    } 
+
+ 
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    header .Navbar {
+
+        grid-template-columns: 10rem auto 11rem;
+
+
+    }
+    header nav ul {
+    transform: scale(0.8);
+    gap: 0.9rem;
+
+    }
+.scale-75 > ul > li > a {
+    font-size: 0.68rem;
+    }
+
+    .container{
+         
+        background-color: var(--color-danger);
+    } 
+
+}
+
+@media screen and (max-width: 756px) {
+
+    
+    
+        header .Navbar{
+    
+            grid-template-columns: 1fr;
+            width: 100%;
+    
+        }
+
+        .container{
+         
+            background-color: var(--color-info);
+        } 
+        header .Navbar  {
+            width: 100%;
+            /* background-color: var(--color-default-gray); */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+            padding: 0;
+        }
+    
+        header .Navbar nav  {
+            display: none;
+        }
+    
+        header .Navbar .menuBtn {
+            display: flex;
+            z-index: 10;
+            cursor: pointer;
+            align-items: center;
+            justify-content: center;
+            background: transparent;
+        }
+    
+        header .Navbar button {
+            display: none;
+        }
+         
+        
+    
+
+
+}
+
+
+@media screen and (min-width: 340px) and (max-width: 540px) {
+    .container{
+     
+        background-color: var(--color-warning);
+    } 
+
+}
+
+
+@media screen and (max-width: 399px) {
+    
+    .container{
+        grid-template-columns: 1fr;
+        width: 100%;
+        background-color: var(--primary-color);
+    } 
+  
+     
+    
+    }

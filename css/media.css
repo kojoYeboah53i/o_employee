@@ -1,0 +1,138 @@
+/* ================== media queries ==================== */
+@media screen and (max-width: 1200px) and  {
+
+   .instant-book{ width: 86%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+   }
+}
+
+/* @media screen  (max-width: 1024px) and (min-width: 800px) {
+    
+    .instant{
+        width: 100%;
+        height: 100vh;
+    }
+    .instant-book{
+        background-color: yellow;
+        grid-template-columns: 1fr;
+        width: 100%;
+        height: 80vh;
+
+    }
+    .instant-book .location{
+        width: 89%;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 1.2rem;
+    }
+    .instant-book .date{
+        width: 89%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+} */
+ 
+@media only screen and (max-width: 1204px) {
+    .instant {
+        background-color: blue;
+        /* grid-template-columns: 1fr;*/
+         width: 100%; 
+        /* height: 20vh;  */
+        scale: 1;
+
+    }
+
+    .instant-book {
+        gap: 0.9rem;
+
+    }
+
+
+}
+
+
+
+
+
+/* ================== media queries ==================== */
+/* @media screen and (max-width: 768px) { */
+    @media only screen and (max-width: 1024px) and (min-width: 768px) {
+
+    .instant{
+        width: 100%;
+        height: 100vh;
+    }
+    .instant-book{
+        background-color: yellow;
+        grid-template-columns: 1fr;
+        width: 100%;
+        height: 80vh;
+
+    }
+    .instant-book .location{
+        width: 89%;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 1.2rem;
+    }
+    .instant-book .date{
+        width: 89%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+}
+
+@media only screen and (max-width : 768px ) {
+    .instant{
+        width: 100%;
+        height: 100vh;
+    }
+    .instant-book{
+        background-color: green;
+        grid-template-columns: 1fr;
+        width: 100%;
+        height: 80vh;
+
+    }
+    .instant-book .location{
+        width: 89%;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 1.2rem;
+    }
+    .instant-book .date{
+        width: 89%;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+/* ================== media queries ==================== */
+@media screen and (max-width: 360px) {
+    .instant-book{
+        /* background-color: brown; */
+         width: 96%;
+        display: grid;
+        grid-template-columns: 1fr;
+       }
+
+       .instant-book .location{
+        width: 89%;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 0.9rem;
+    }
+    .instant-book .date{
+        width: 89%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+
+}
