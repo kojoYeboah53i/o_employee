@@ -23,6 +23,8 @@ body .wrapper  .wallpaper{
   width: 100%;
   height: 100% ;
   /* padding: var(--padding-1); */
+  position: relative;
+  right: 10;
 }
 
 body .wrapper  .wallpaper img{
