@@ -149,7 +149,7 @@
         transition: ease all 300ms;
         text-decoration: none;
         list-style: none;
-        /* margin-left: -0.8rem; */
+        cursor: pointer;
         padding: 0.2rem 0.1rem;
         
     }
@@ -162,7 +162,7 @@
         position: absolute;
         right: 0;
         bottom: 2.5rem;
-        width: 96%;
+        width: 99%;
         /* margin-left: 1rem; */
         color: var(--color-white);
         background-color: var(--primary-color);
